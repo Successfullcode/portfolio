@@ -7,8 +7,7 @@ const About = () => {
     <div>
       <Hero2
         heading="ABOUT."
-        text="I'm Okwuluora ndi igbo. I Promotes Good Living 
-       And Just Gorvernance In Igbo Land."
+        text="I'm SucceDevX. Experienced wed developer with experties in [Html and Css, Javascript, REACT.JS & MONGO DB]."
       />
       <AboutContent />
     </div>

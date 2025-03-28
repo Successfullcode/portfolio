@@ -3,7 +3,7 @@ import "./Hero.css";
 
 import React from 'react'
 
-import Hero1 from "../assets/Hero1.jpeg"
+import Hero1 from "../assets/Hero1.jpg"
 import {Link} from "react-router-dom"
 
 const Hero = () => {
@@ -13,8 +13,8 @@ const Hero = () => {
         <img className="hero-img" src={Hero1} alt="hero" />
       </div>
       <div className="content">
-        <p>HI, I'M Okwuluora Ndi Igbo.</p>
-        <h1>I Promotes Good Living.</h1>
+        <p>HI, I'M SucceDevX.</p>
+        <h1>I am a passionate web developer.</h1>
         <div>
           <Link to="/project" className="btn">
             Project

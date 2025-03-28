@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const [color, setColor] = useState(false);
   const changeColor = () =>{
-    if (window.scrollY >=1){
+    if (window.scrollY > 50){
       setColor(true);
     } else {
       setColor(false);
@@ -22,20 +22,20 @@ const Navbar = () => {
   return (
     <div className="header">
       <Link to="/">
-        <h1>Okwuluora</h1>
+        <h1>SucceDevX</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/project">Project</Link>
+          <Link  to="/project">Project</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link  to="/about">About</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link   to="/contact">Contact</Link>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
