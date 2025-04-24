@@ -26,16 +26,24 @@ const Navbar = () => {
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/">Home</Link>
+          <Link onClick={() => setClick(false)} to="/">
+            Home
+          </Link>
         </li>
         <li>
-          <Link  to="/project">Project</Link>
+          <Link onClick={() => setClick(false)} to="/project">
+            Project
+          </Link>
         </li>
         <li>
-          <Link  to="/about">About</Link>
+          <Link onClick={() => setClick(false)} to="/about">
+            About
+          </Link>
         </li>
         <li>
-          <Link   to="/contact">Contact</Link>
+          <Link onClick={() => setClick(false)} to="/contact">
+            Contact
+          </Link>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
